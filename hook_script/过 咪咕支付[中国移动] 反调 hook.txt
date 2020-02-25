@@ -1,0 +1,9 @@
+var _constructor = constructor;
+
+Function.prototype.constructor = function(s) {
+
+                if (s == "debugger"){
+                        return function(){};
+                }
+       return _constructor(s);
+}

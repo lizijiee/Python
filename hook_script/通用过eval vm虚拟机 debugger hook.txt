@@ -1,0 +1,12 @@
+//配合编程猫专用工具进行hook
+(function() { 
+'use strict';
+
+//过 瑞数 debuger 
+var eval_ = window.eval;
+window.eval = function(x){
+	eval_(x.replace("debugger;","  ; "));
+};
+//过 瑞数 debuger检测
+window.eval.toString = eval_.toString;
+})();
