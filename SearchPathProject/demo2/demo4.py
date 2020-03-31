@@ -9,13 +9,21 @@ import os
 # sys.path.append('D:\工作\项目文件\github下载\Python\SearchPathProject\demo2')
 # import demo3.demo2_1
 
-print('__file__={0:<35} | __name__={1:<20} | __package__={2:<20}'.format(
-__file__, __name__, str(__package__)))
-import demo2
-
-print(3333,demo2)
+# import demo2
+# from demo3.six import func6
+# print( '__file__={0:<35} | __name__={1:<20} | __package__={2:<20}'.format(
+#     __file__, __name__, str(__package__)))
+# from demo3 import demo7
+from demo1 import demo6
+print(demo6.func())
+# import six
+# print(sys.path,six)
+# from . import six
 # 报错格式错误
-# from . import demo2
+
+
+# import six
+# print(3333,six)
 
 # from .demo3.demo2 import func2  正确书写方式
 

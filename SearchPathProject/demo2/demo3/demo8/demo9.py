@@ -1,2 +1,4 @@
-from ..demo8 import six
-print('9999999999999999999999999999')
+from .. import six
+
+print('demo9.py变量名分别为：','__file__={0:<35} | __name__={1:<20} | __package__={2:<20}'.format(
+__file__, __name__, str(__package__)))
