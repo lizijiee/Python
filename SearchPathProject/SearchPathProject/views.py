@@ -6,10 +6,11 @@ import json
 from SearchPathProject.enter import func
 import enter
 from demo1.demo6 import *
+import demo2.demo4
 # from demo1.demo6 import *
 
 # 不可以是文件
-print(111111, func(), name)
+# print(demo2.demo4)
 
 
 def hello(request):

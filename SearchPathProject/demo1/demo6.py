@@ -1,9 +1,9 @@
-from .demo2.demo2 import func as func2
+# from .demo2.demo2 import func as func2
 
-name = "我是deomo2"  # 字符串
+name = "demo6进入执行"  # 字符串
 
 def func():
-    return 'demo2进入执行'
+    return name
 
-def func6():
-    return func2()
+# def func6():
+#     return func2()

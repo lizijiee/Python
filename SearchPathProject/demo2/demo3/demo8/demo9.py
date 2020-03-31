@@ -1,0 +1,2 @@
+from ..demo8 import six
+print('9999999999999999999999999999')
